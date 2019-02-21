@@ -1,0 +1,27 @@
+{
+  "manifest_version": 2,
+  "name": "Create GitHub Issue",
+  "version": "0.1",
+  "browser_action": {
+    "default_title": "Create GitHub Issue - Configuration",
+    "default_icon": {
+      "16": "icon.svg"
+    }
+  },
+  "background": {
+      "scripts": ["background.js"]
+  },
+  "icons": {
+    "128": "icon.svg"
+  },
+  "permissions": [
+      "contextMenus",
+      "notifications",
+      "storage"
+  ],
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "create-issue@andymckay.org"
+    }
+  }
+}
