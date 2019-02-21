@@ -35,8 +35,9 @@ browser.contextMenus.create({
 });
 
 browser.contextMenus.onClicked.addListener((info, tab) => {
+    let title = info.selectionText;
     let data = {
-        'title': info.selectionText.slice(0, 30) + '...',
+        'title': title.length > 30 ? title.slice(0, 30) + "..." : title,
         'body': `${info.selectionText}\n\n${info.pageUrl}`
     }
     createIssue(data);
