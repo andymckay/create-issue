@@ -14,25 +14,27 @@
         </div>
     </div>
     <div class="container mt-5">
-        <h3>Configuration</h3>
-        <p>To setup this extension, we'll need a couple of peices of information 👇🏽.</p>
-        <hr>
-        <p>This is your <b>personal access token</b> for accessing GitHub using this API. It's stored in your browser and is sent on requests to GitHub.</p>
-        <form id="pat" style="display: none">
-            <input class="form-control" type="text" name="pat">
-            <button class="btn btn-outline" type="submit">Save</button>
-        </form>
-        <button class="btn btn-outline" type="submit" id="show-pat">Show Personal Access Token</button>
+      <h3>Configuration</h3>
+      <p>To setup this extension, we'll need a couple of peices of information 👇🏽.</p>
+      <hr>
+      <p>This is your <b>personal access token</b> for accessing GitHub using this API. It's stored in your browser and is sent on requests to GitHub.</p>
+      <form id="pat" style="display: none">
+          <input class="form-control" type="text" name="pat">
+          <button class="btn btn-outline" type="submit">Save</button>
+      </form>
+      <button class="btn btn-outline" type="submit" id="show-pat">Show Personal Access Token</button>
 
-        <hr>
-        <p>Which repo do we save the issue too?</p>
-        <form id="repo" class="save-form">
-            <input class="form-control" type="text" name="org" placeholder="Owner">
-            <input class="form-control" type="text" name="repo" placeholder="Repo">
-            <button class="btn btn-outline" type="submit">Save</button>
-        </form>
-
-
+      <hr>
+      <p>Which repo do we save the issue too?</p>
+      <form id="repo" class="save-form">
+          <input class="form-control" type="text" name="org" placeholder="Owner">
+          <input class="form-control" type="text" name="repo" placeholder="Repo">
+          <button class="btn btn-outline" type="submit">Save</button>
+      </form>
+    </div>
+    <div class="container mt-5">
+      <p>Source is on <a href="http://github.com/andymckay/create-issue">GitHub</a>.</p>
+    </div>
     <script src="config.js"></script>
   </body>
 </html>
