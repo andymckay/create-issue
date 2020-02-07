@@ -1,0 +1,17 @@
+body {
+  width: 20em;
+  padding: 1em;
+}
+
+img {
+  display: block;
+  padding-bottom: 1em;
+}
+
+.hidden {
+  display: none;
+}
+
+.shown {
+  display: block;
+}

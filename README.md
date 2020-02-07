@@ -1,4 +1,4 @@
-**Status:** A work in progress.
+**Status:** Works for me.
 
 Adds a context menu item to your browser. Select some text and hit `Create GitHub Issue` and it will create an issue on a GitHub repo containing the text snippet and a URL back to the source.
 
